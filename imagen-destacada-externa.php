@@ -2,7 +2,7 @@
 /*
  * Plugin Name: Imagen destacada externa
  * Plugin URI: https://github.com/0x230797/imagen-destacada-externa
- * Description: Este pequeño plugin muestra una imagen externa como imagen destacada.
+ * Description: Este pequeño plugin muestra una imagen externa como imagen destacada usando sólo la url de la imagen.
  * Version: 1.0
  * Author: C A N I B A L
  * Author URI: https://github.com/0x230797
