@@ -11,6 +11,10 @@
  * License URI: https://www.gnu.org/licenses/gpl-3.0.html
  */
 
+ if ( ! defined( 'ABSPATH' ) ) {
+    exit;
+}
+
 // Agregar campos personalizados al editor de entradas
 function custom_featured_image_fields() {
     add_meta_box(
