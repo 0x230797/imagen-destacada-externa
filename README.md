@@ -1,0 +1,1 @@
+# imagen-destacada-externa
