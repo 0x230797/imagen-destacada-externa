@@ -28,10 +28,10 @@ function custom_featured_image_url_callback($post) {
     $image_url = get_post_meta($post->ID, '_custom_featured_image_url', true);
 
     // Mostrar el campo de entrada
-    ?>
+?>
     <label for="custom_featured_image_url">URL de la imagen:</label>
     <input type="text" id="custom_featured_image_url" name="custom_featured_image_url" style="width: 100%;" value="<?php echo esc_attr($image_url); ?>">
-    <?php
+<?php
 }
 
 add_action('add_meta_boxes', 'custom_featured_image_fields');
